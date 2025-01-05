@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
@@ -60,6 +60,11 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -77,7 +82,7 @@
           <ul class="list-advant">
             <li class="advant-items">
               <div class="icons">
-                <svg class="" width="64" height="64">
+                <svg class="icons-hide" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -90,7 +95,7 @@
 
             <li class="advant-items">
               <div class="icons">
-                <svg class="" width="64" height="64">
+                <svg class="icons-hide" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -103,7 +108,7 @@
 
             <li class="advant-items">
               <div class="icons">
-                <svg class="" width="64" height="64">
+                <svg class="icons-hide" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -116,7 +121,7 @@
 
             <li class="advant-items">
               <div class="icons">
-                <svg class="" width="64" height="64">
+                <svg class="icons-hide" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -134,7 +139,8 @@
           <h2 class="head-two">Our Team</h2>
           <ul class="list-advant">
             <li class="team-list">
-              <img src="./images/img.jpg" alt="Mark" width="264" />
+              <img src="./images/img.jpg" , srcset="./images/img-2x.jpg 2x"
+               alt="Mark" width="264" />
               <div class="discr">
                 <h3 class="head-three">Mark Guerrero</h3>
                 <p class="par-spec">Product Designer</p>
@@ -171,7 +177,7 @@
               </div>
             </li>
             <li class="team-list">
-              <img src="./images/img-1.jpg" alt="Tom" width="264" />
+              <img src="./images/img-1.jpg" , srcset="./images/img-1-2x.jpg 2x" alt="Tom" width="264" />
               <div class="discr">
                 <h3 class="head-three">Tom Ford</h3>
                 <p class="par-spec">Frontend Developer</p>
@@ -208,7 +214,7 @@
               </div>
             </li>
             <li class="team-list">
-              <img src="./images/img-2.jpg" alt="Camila" width="264" />
+              <img src="./images/img-2.jpg" , srcset="./images/img-2-2x.jpg 2x" alt="Camila" width="264" />
               <div class="discr">
                 <h3 class="head-three">Camila Garcia</h3>
                 <p class="par-spec">Marketing</p>
@@ -245,7 +251,7 @@
               </div>
             </li>
             <li class="team-list">
-              <img src="./images/img-3.jpg" alt="Daniel" width="264" />
+              <img src="./images/img-3.jpg", srcset="./images/img-3-2x.jpg 2x" alt="Daniel" width="264" />
               <div class="discr">
                 <h3 class="head-three">Daniel Wilson</h3>
                 <p class="par-spec">UI Designer</p>
@@ -285,12 +291,14 @@
         </div>
       </section>
       <section class="section">
-        <div class="container container-portfolio">
+        <div class="container-portfolio">
           <h2 class="head-two">Our Portfolio</h2>
           <ul class="list-port">
             <li class="port-list">
               <div class="overlay">
-                <img src="./images/img-5.jpg" alt="Banking App" width="360" />
+                <img src="./images/img-5.jpg"
+                srcset="./images/img-5-2x.jpg 2x"
+                alt="Banking App" width="360" />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -305,7 +313,7 @@
             <li class="port-list">
               <div class="overlay">
                 <img
-                  src="./images/img-6.jpg"
+                  src="./images/img-6.jpg" srcset="./images/img-6-2x.jpg 2x"
                   alt="Cashless Payment"
                   width="360"
                 />
@@ -323,7 +331,7 @@
             <li class="port-list">
               <div class="overlay">
                 <img
-                  src="./images/img-7.jpg"
+                  src="./images/img-7.jpg" srcset="./images/img-7-2x.jpg 2x"
                   alt="Meditation App"
                   width="360"
                 />
@@ -340,7 +348,7 @@
             </li>
             <li class="port-list">
               <div class="overlay">
-                <img src="./images/img-8.jpg" alt="Taxi Service" width="360" />
+                <img src="./images/img-8.jpg" srcset="./images/img-8-2x.jpg 2x" alt="Taxi Service" width="360" />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -355,7 +363,7 @@
             <li class="port-list">
               <div class="overlay">
                 <img
-                  src="./images/img-9.jpg"
+                  src="./images/img-9.jpg" srcset="./images/img-9-2x.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                 />
@@ -373,7 +381,7 @@
             <li class="port-list">
               <div class="overlay">
                 <img
-                  src="./images/img-10.jpg"
+                  src="./images/img-10.jpg" srcset="./images/img-10-2x.jpg 2x"
                   alt="Online Courses"
                   width="360"
                 />
@@ -393,7 +401,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="hidden">
       <div class="container div-parent">
         <div class="container-footer">
           <a class="logo footer-logo" href="./index.html"
@@ -469,7 +477,7 @@
       </div>
       
     </footer>
-    <div class="backdrop is-open">
+    <div class="hidden">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="icon-close" width="8" height="8">
